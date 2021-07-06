@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ==========start Header Part============= */
+.header{}
+.header-section{
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+.header-sec-content{
+    width: 50%;
+    padding: 3%;
+    margin-top: 9%;
+}
+.color-orange{
+    color: orange;
+}
+.header-sec-content h1{
+    font-size: 50px;
+    color: gray;
+    font-weight: 800;
+}
+.header-sec-content h2{
+    font-size: 18px;
+    color: gray;
+}
+.header-sec-content p{}
+.header-sec-content a{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px ;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+.price{
+    font-size: 35px;
+    text-decoration: underline;
+    margin-left: 20px;
+    color: gray;
+}
+.header-sec-img{
+ 
+}
+.header-sec-img img{
+    margin-top: 9%;
+    width: 100%;
+    border-radius: 35% 1%;
+}
+/* <!-- ===========End Header Part============= -->
+
+
+  <!-- ===========Start banner Part============= --> */
+.banner{
+    background-image: url(../Images/final-middle-banner.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+
+    margin-bottom: 80px;
+}
+.about{
+    margin-left: 70%;
+    padding-top: 8%;
+}
+.about h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.about h2{
+    color: gray;
+}
+.about p{
+    text-align: justify;
+    width: 85%;
+}
+.about a{
+text-decoration: none;
+font-size: 18px;
+font-weight: 800;
+background-image: linear-gradient(white,black);
+padding: 10px 40px;
+color: white;
+border-radius: 10px;
+}
+
+.arrow{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    
+}
+/* -- ===========end banner Part=============  */
+
+/* ============start Recipies part============== */
+.recipies{
+margin: 0 auto;
+width: 50%;
+margin-bottom: 10%;
+}
+.recipies-content{
+text-align: center;
+
+}
+.recipies-content p{
+    color: gray;
+}
+.recipies-content h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ============End Recipies part============== */
+
+
+/* ============Start card part============== */
+
+.card-part{
+    display: flex;
+    margin-bottom: 10%;
+   
+}
+.card{
+    width: 24%;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 40px grey;
+
+}
+.card img{
+    border-radius: 20px;
+    margin: 15px;
+    width: 430px;
+}
+
+.card h1{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 800;
+    color: orange;
+}
+.card h3{
+    margin-left: 10px;
+    color: gray;
+}
+.card p{
+    padding: 10px;
+    
+    text-align: justify;
+}
+/* ============End card part============== */
+
+
+
+/* ============Start subscriber part==============  */
+
+.subscriber-part{
+    margin-bottom: 10%;
+}
+.sub-content{
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 40px grey;
+    
+    
+}
+.sub{
+    margin-left: 11%;
+    margin-right: 19%;
+    
+}
+.sub h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+.sub p{
+    width: 202%;
+}
+/* ============End subscriber part==============  */
+
+/* ============Start footer  part==============  */
+.contact-part{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-part h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: gray;
+    text-decoration: underline;text-decoration-color: orange;
+}
+.contact-area{}
+.contact-area input{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-area a{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    
+}
+
+
+
+/* ============Start footer  part==============  */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+
+
