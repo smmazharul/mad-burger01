@@ -88,42 +88,56 @@ body{
 
   <!-- ===========Start banner Part============= --> */
 .banner{
-    background-image: url(../images/final-middle-banner.png) ;
+    background-image: url(../images/2.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
     width: 100%;
-
+    display: flex;
     margin-bottom: 80px;
 }
+.banner-img{
+
+}
+.banner-img img{
+    margin-top: 47.1%;
+    height: 400px;
+
+}
 .about{
-    margin-left: 70%;
-    padding-top: 8%;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 .about h1{
-    font-size: 30px;
-    font-weight: 800;
-}
-.about h2{
+    font-size: 30px ;
+    font-weight: 900;
     color: gray;
 }
+.about h2{
+    font-size: 18px;
+    color: white;
+}
 .about p{
+    color: rgb(51, 49, 49);
     text-align: justify;
-    width: 85%;
+    width: 80%;
 }
+
 .about a{
-text-decoration: none;
-font-size: 18px;
-font-weight: 800;
-background-image: linear-gradient(white,black);
-padding: 10px 40px;
-color: white;
-border-radius: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(182, 182, 182),rgb(10, 10, 10));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
 }
+
+
 
 .arrow{
     font-weight: bold;
-    color: black;
+    color: orange;
     font-size: 18px;
     
 }
