@@ -55,7 +55,7 @@ body{
 
   <!-- ===========Start banner Part============= --> */
 .banner{
-    background-image: url(../Images/final-middle-banner.png) ;
+    background-image: url(../images/final-middle-banner.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
